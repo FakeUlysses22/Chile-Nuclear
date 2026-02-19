@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chile Nuclear</title>
+
+  <meta name="description" content="Chile Nuclear: comunidad académica-estudiantil de divulgación y formación sobre energía nuclear en Chile." />
+  <meta name="theme-color" content="#070A12" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Saltar al contenido principal</a>
+
+  <!-- Scroll progress -->
+  <div class="scroll-progress" aria-hidden="true">
+    <div class="scroll-progress__bar" id="scrollBar"></div>
+  </div>
+
+  <!-- NAVBAR -->
+  <nav class="nav" aria-label="Navegación principal">
+    <div class="nav__container">
+      <a class="brand" href="#top" aria-label="Inicio - Chile Nuclear">
+        <div class="brand__mark" aria-hidden="true">
+          <img src="assets/Logos-05-removebg-preview.png" alt="" class="brand__logo" />
+        </div>
+        <span class="brand__text">Chile Nuclear</span>
+      </a>
+
+      <div class="nav__links" role="navigation" aria-label="Secciones">
+        <a class="nav__link" href="#que-es">Qué es</a>
+        <a class="nav__link" href="#pilares">Pilares</a>
+        <a class="nav__link" href="#energia">Energía nuclear hoy</a>
+        <a class="nav__link" href="#actividades">Actividades</a>
+        <a class="nav__link" href="#faq">FAQ</a>
+      </div>
+
+      <div class="nav__actions">
+        <a class="btn btn--primary btn--sm" href="#comunidad">Unirse</a>
+      </div>
+
+      <button class="nav__burger" id="navBurger" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="mobileMenu">
+        <span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span>
+      </button>
+    </div>
+
+    <!-- Mobile menu -->
+    <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+      <a class="mobile-menu__link" href="#que-es">Qué es</a>
+      <a class="mobile-menu__link" href="#pilares">Pilares</a>
+      <a class="mobile-menu__link" href="#energia">Energía nuclear hoy</a>
+      <a class="mobile-menu__link" href="#actividades">Actividades</a>
+      <a class="mobile-menu__link" href="#faq">FAQ</a>
+      <a class="btn btn--primary" href="#comunidad">Unirse a la comunidad</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header id="top" class="hero">
+    <div class="hero__bg" aria-hidden="true">
+      <div class="hero__grid"></div>
+      <div class="hero__orb hero__orb--a"></div>
+      <div class="hero__orb hero__orb--b"></div>
+      <div class="hero__noise"></div>
+      <div class="hero__watermark" aria-hidden="true">
+        <img src="assets/Logos-05-removebg-preview.png" alt="" />
+      </div>
+    </div>
+
+    <div class="hero__container reveal">
+      <div class="hero__brandlockup" aria-label="Chile Nuclear">
+        <img src="assets/Logos-07-removebg-preview.png" alt="Chile Nuclear · Difusión en reacción" />
+      </div>
+
+      <div class="hero__badge">
+        <span class="dot"></span>
+        Iniciativa estudiantil · Divulgación y formación
+      </div>
+
+      <h1 class="hero__title">
+        Aprende y participa en la conversación sobre
+        <span class="accent">energía nuclear</span> en Chile.
+      </h1>
+
+      <p class="hero__subtitle">
+        Chile Nuclear es una comunidad académica-estudiantil dedicada a la divulgación rigurosa,
+        la formación colaborativa y el análisis técnico nacional e internacional.
+      </p>
+
+      <div class="hero__cta">
+        <a class="btn btn--primary" href="https://chat.whatsapp.com/Ddta3JHaAalIJx7g0YvQeA" target="_blank" rel="noopener">
+          Únete a la comunidad
+        </a>
+        <a class="btn btn--ghost" href="#energia">Explorar contenidos</a>
+      </div>
+
+
+      <div class="hero__meta hero__meta--2">
+        <div class="meta-card">
+          <div class="meta-card__kpi" data-counter="true" data-to="6" data-suffix="+">6+</div>
+          <div class="meta-card__label">Departamentos de trabajo</div>
+        </div>
+        <div class="meta-card">
+          <div class="meta-card__kpi" data-counter="true" data-to="2" data-suffix="+">2+</div>
+          <div class="meta-card__label">Universidades involucradas al proyecto</div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- QUÉ ES -->
+    <section id="que-es" class="section section--tight reveal">
+      <div class="container">
+        <div class="section__head">
+          <h2>Qué es Chile Nuclear</h2>
+          <p class="lead">
+            Un espacio académico-estudiantil para comprender con seriedad la energía nuclear:
+            su tecnología, su seguridad, la gestión de residuos y su posible contribución a los desafíos energéticos del país.
+          </p>
+        </div>
+
+        <div class="callout">
+          <div class="callout__icon" aria-hidden="true">⚛︎</div>
+          <div class="callout__content">
+            <h3>Rigor, transparencia y enfoque país</h3>
+            <p>
+              Promovemos conversaciones basadas en evidencia y pensamiento crítico,
+              evitando simplificaciones y elevando el nivel técnico de la discusión pública.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PILARES -->
+    <section id="pilares" class="section section--glass reveal">
+      <div class="container">
+        <div class="section__head">
+          <h2>Pilares del proyecto</h2>
+          <p class="lead">Tres líneas de acción para aprender, compartir y analizar con mirada científica.</p>
+        </div>
+
+        <div class="grid grid--3">
+          <article class="card card--glow">
+            <div class="card__top">
+              <span class="chip">Divulgación</span>
+              <div class="card__icon" aria-hidden="true">🧪</div>
+            </div>
+            <h3>Divulgación científica</h3>
+            <p>Contenido claro, riguroso y basado en evidencia para comprender conceptos, tecnologías y debates actuales.</p>
+          </article>
+
+          <article class="card card--glow">
+            <div class="card__top">
+              <span class="chip">Comunidad</span>
+              <div class="card__icon" aria-hidden="true">🤝</div>
+            </div>
+            <h3>Formación y comunidad</h3>
+            <p>Aprendizaje colaborativo e interdisciplinario, con espacios para preguntas, discusión y trabajo académico.</p>
+          </article>
+
+          <article class="card card--glow">
+            <div class="card__top">
+              <span class="chip">Chile</span>
+              <div class="card__icon" aria-hidden="true">📈</div>
+            </div>
+            <h3>Energía y país</h3>
+            <p>Análisis realista del rol nuclear en Chile, considerando seguridad, costos, regulación y contexto energético.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ENERGÍA -->
+    <section id="energia" class="section reveal">
+      <div class="container">
+        <div class="section__head">
+          <h2>Energía nuclear hoy</h2>
+          <p class="lead">
+            Reactores modernos, cultura de seguridad, gestión de residuos y tecnologías emergentes como los SMR
+            (reactores modulares pequeños). Queremos que entiendas el “cómo” y el “por qué”, no solo el titular.
+          </p>
+        </div>
+
+        <div class="split">
+          <div class="split__left">
+            <div class="info-list">
+              <div class="info">
+                <div class="info__title">Seguridad por diseño</div>
+                <div class="info__text">Sistemas pasivos, redundancia y estándares internacionales como base del debate técnico.</div>
+              </div>
+              <div class="info">
+                <div class="info__title">Residuos y ciclo de combustible</div>
+                <div class="info__text">Decisiones informadas requieren entender almacenamiento, trazabilidad y tiempos.</div>
+              </div>
+              <div class="info">
+                <div class="info__title">SMR y nuevas arquitecturas</div>
+                <div class="info__text">Oportunidades y límites: tecnología, despliegue, regulación y madurez industrial.</div>
+              </div>
+            </div>
+
+            <div class="section__actions">
+              <a class="btn btn--primary" href="#comunidad">Participar en la comunidad</a>
+              <a class="btn btn--ghost" href="#actividades">Ver actividades</a>
+            </div>
+          </div>
+
+          <div class="split__right">
+            <div class="panel">
+              <div class="panel__title">Enfoque de aprendizaje</div>
+              <ul class="panel__list">
+                <li>Conceptos fundamentales y terminología (sin “humo”).</li>
+                <li>Casos reales, lecciones y estándares de seguridad.</li>
+                <li>Contexto chileno: matriz, geografía, industria y política pública.</li>
+              </ul>
+              <div class="panel__foot">
+                <span class="pill">Innovación</span>
+                <span class="pill">Rigor</span>
+                <span class="pill">Pensamiento crítico</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALERÍA -->
+    <section id="actividades" class="section section--glass reveal">
+      <div class="container">
+        <div class="section__head">
+          <h2>Actividades y experiencias</h2>
+          <p class="lead">
+            Charlas, reuniones, visitas técnicas y actividades académicas para aprender en comunidad y conectar teoría con realidad.
+          </p>
+        </div>
+
+        <div class="gallery" aria-label="Galería de actividades">
+          <figure class="gallery-item">
+            <button class="gallery-item__btn" type="button">
+              <div class="gallery-item__media">
+                <img src="assets/galeria/cato1.jpeg" alt="Charla sobre tratados internacionales nucleares en la PUC">
+              </div>
+            </button>
+            <figcaption>Charla sobre tratados internacionales nucleares · PUC</figcaption>
+          </figure>
+
+          <figure class="gallery-item">
+            <button class="gallery-item__btn" type="button">
+              <div class="gallery-item__media">
+                <img src="assets/galeria/cato2.jpeg" alt="Charla: Energía nuclear, ¿es posible?">
+              </div>
+            </button>
+            <figcaption>Charla sobre tratados internacionales nucleares · PUC</figcaption>
+          </figure>
+
+          <figure class="gallery-item">
+            <button class="gallery-item__btn" type="button">
+              <div class="gallery-item__media">
+                <img src="assets/galeria/cato3.jpeg" alt="Reunión en la Universidad de Chile">
+              </div>
+            </button>
+            <figcaption>Charla: “Energía nuclear, ¿es posible?” · PUC</figcaption>
+          </figure>
+
+          <figure class="gallery-item">
+            <button class="gallery-item__btn" type="button">
+              <div class="gallery-item__media">
+                <img src="assets/galeria/chile1.jpg" alt="Actividad académica en la Universidad de Chile">
+              </div>
+            </button>
+            <figcaption>Charla: “Energía nuclear, ¿es posible?” · FCFM</figcaption>
+          </figure>
+
+          <figure class="gallery-item">
+            <button class="gallery-item__btn" type="button">
+              <div class="gallery-item__media">
+                <img src="assets/galeria/chile2.jpg" alt="Visita técnica a reactor">
+              </div>
+            </button>
+            <figcaption>Reunión semanal · FCFM</figcaption>
+          </figure>
+
+          <figure class="gallery-item">
+            <button class="gallery-item__btn" type="button">
+              <div class="gallery-item__media">
+                <img src="assets/galeria/chile3.jpg" alt="Visita técnica a reactor (segunda instancia)">
+              </div>
+            </button>
+            <figcaption>Primera Foto Nucleo UChile · FCFM</figcaption>
+          </figure>
+
+          <figure class="gallery-item">
+            <button class="gallery-item__btn" type="button">
+              <div class="gallery-item__media">
+                <img src="assets/galeria/reactor2.jpeg" alt="Reunión en la Universidad de Chile">
+              </div>
+            </button>
+            <figcaption>Visita reactor de la Reina · Reactor</figcaption>
+          </figure>
+
+          <figure class="gallery-item">
+            <button class="gallery-item__btn" type="button">
+              <div class="gallery-item__media">
+                <img src="assets/galeria/reactor1.jpg" alt="Reunión en la Universidad de Chile">
+              </div>
+            </button>
+            <figcaption>Visita reactor de la Reina · Reactor</figcaption>
+          </figure>
+
+          <figure class="gallery-item">
+            <button class="gallery-item__btn" type="button">
+              <div class="gallery-item__media">
+                <img src="assets/galeria/reactor3.png" alt="Reunión en la Universidad de Chile">
+              </div>
+            </button>
+            <figcaption>Visita reactor de la Reina · Reactor</figcaption>
+          </figure>
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section reveal">
+      <div class="container">
+        <div class="section__head">
+          <h2>Preguntas frecuentes</h2>
+          <p class="lead">Respuestas breves para orientar la conversación y facilitar tu entrada al tema.</p>
+        </div>
+
+        <div class="accordion" data-accordion>
+          <details class="acc-item">
+            <summary class="acc-head">¿Necesito saber física avanzada para participar?</summary>
+            <div class="acc-body">
+              No. Puedes entrar desde cero. La idea es construir base conceptual y aumentar el nivel con recursos y discusión guiada.
+            </div>
+          </details>
+
+          <details class="acc-item">
+            <summary class="acc-head">¿Puedo participar desde otra universidad o sin estar en la UC/UChile?</summary>
+            <div class="acc-body">
+              Si, si aportas con constancia. Donde aplique, ciertas coordinaciones pueden depender del contexto universitario, pero el trabajo académico y de apoyo suele ser abierto.
+            </div>
+          </details>
+
+          <details class="acc-item">
+            <summary class="acc-head">¿Qué tipo de actividades realizan?</summary>
+            <div class="acc-body">
+               Instancias de estudio (journals/lecturas guiadas), reuniones de coordinación, elaboración de material informativo y apoyo a actividades internas. El formato puede variar, pero el foco es aprendizaje, análisis y difusión responsable.
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section id="comunidad" class="cta reveal" aria-label="Llamado a la acción">
+      <div class="cta__bg" aria-hidden="true"></div>
+      <div class="cta__container">
+        <h2>Únete a Chile Nuclear</h2>
+        <p>
+          Comunidad abierta para estudiantes y personas interesadas en ciencia, tecnología y energía.
+          Conversemos con rigor y construyamos conocimiento útil para el país.
+        </p>
+
+        <div class="cta__links">
+          <a class="btn btn--primary" href="https://chat.whatsapp.com/Ddta3JHaAalIJx7g0YvQeA" target="_blank" rel="noopener">WhatsApp</a>
+          <a class="btn btn--ghost" href="https://www.instagram.com/chile_nuclear" target="_blank" rel="noopener">Instagram</a>
+          <a class="btn btn--ghost" href="https://www.youtube.com/@chile_nuclear" target="_blank" rel="noopener">YouTube</a>
+          <a class="btn btn--ghost" href="https://www.u-cursos.cl/uchile/2025/0/COMTLLR76/1/servicios_comunidades/postulaciones" target="_blank" rel="noopener">U-Cursos</a>
+        </div>
+
+        <div class="cta__note">
+          <span class="shield" aria-hidden="true">🛡</span>
+          Priorizamos evidencia, seguridad y transparencia en la conversación.
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="footer__brand" aria-label="Chile Nuclear">
+        <img src="assets/Logos-07-removebg-preview.png" alt="Chile Nuclear · Difusión en reacción" />
+      </div>
+
+      <p>© 2026 Chile Nuclear · Divulgación y formación científica</p>
+
+      <button class="to-top" id="toTop" type="button" aria-label="Volver arriba">
+        ↑
+      </button>
+    </div>
+  </footer>
+
+  <!-- LIGHTBOX -->
+  <div id="lightbox" class="lightbox" aria-hidden="true" role="dialog" aria-label="Visor de imagen">
+    <div class="lightbox__content" role="document">
+      <button class="lightbox__close" type="button" aria-label="Cerrar">×</button>
+      <img class="lightbox__img" src="" alt="" />
+      <div class="lightbox__caption" id="lightboxCaption"></div>
+    </div>
+  </div>
+
+  <script src="scripts.js" defer></script>
+</body>
+</html>
